@@ -11,7 +11,7 @@ import Editar from './Pages/EditarUsuario.jsx';
 
 function App() {
   const currentPath = window.location.pathname.toLowerCase(); // Convertir a minúsculas
-  const navbarDisplay = (currentPath !== '/' && currentPath !== '/menu' && currentPath !== '/iniciosesion') ? "block" : "none";
+  const navbarDisplay = (currentPath !== '/' && currentPath !== '/iniciosesion') ? "block" : "none";
 
   return (
     <Router>
